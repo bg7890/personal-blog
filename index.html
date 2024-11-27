@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartosz Górniak - System Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+</head>
+<body>
+    <div class="theme-toggle">
+        <i class="fas fa-sun"></i>
+    </div>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="prompt">[guest@bartoszgorniak.com ~]$ ls sections/</div>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#blog">blog</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <div class="prompt">[guest@bartoszgorniak.com ~]$ whoami</div>
+                    <h1>Bartosz Górniak</h1>
+                    <p class="subtitle">System Engineer | Tech Enthusiast</p>
+                    <div class="prompt">[guest@bartoszgorniak.com ~]$ cat social_links.txt</div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/bartosz-g%C3%B3rniak-2ba447162/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/bg7890" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/bgbg7890" target="_blank" rel="noopener noreferrer"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <div class="prompt">[guest@bartoszgorniak.com ~]$ cat about.txt</div>
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I am a System Engineer interested in technology and infrastructure. Through my blog, I'd love to share insights into system engineering, tech innovations and maybe some delicious recipes (you heard me right).</p>
+                        <p>I'm learning new technologies and methodologies to improve system reliability and performance.</p>
+                        <p>Maintaining humble, curious and open-minded attitude. </p>
+                    </div>
+                    <div class="skills">
+                        <div class="prompt">[guest@bartoszgorniak.com ~]$ ls skills/</div>
+                        <div class="skill-tags">
+                            <span>System Engineering</span>
+                            <span>Infrastructure</span>
+                            <span>DevOps</span>
+                            <span>Cloud</span>
+                            <span>Automation</span>
+                            <span>Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="blog" class="blog">
+                <div class="prompt">[guest@bartoszgorniak.com ~]$ ls blog/latest</div>
+                <h2>Latest Posts</h2>
+                <div class="blog-grid">
+                    <article class="blog-post">
+                        <div class="post-date">2023-12-20</div>
+                        <h3>Getting Started with Infrastructure as Code</h3>
+                        <p>An introduction to managing infrastructure using code...</p>
+                        <a href="#" class="read-more">Read More ></a>
+                    </article>
+                    <article class="blog-post">
+                        <div class="post-date">2023-12-15</div>
+                        <h3>Monitoring Best Practices</h3>
+                        <p>Essential monitoring strategies for modern systems...</p>
+                        <a href="#" class="read-more">Read More ></a>
+                    </article>
+                    <article class="blog-post">
+                        <div class="post-date">2023-12-10</div>
+                        <h3>Cloud Migration Strategies</h3>
+                        <p>Key considerations when moving to the cloud...</p>
+                        <a href="#" class="read-more">Read More ></a>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="prompt">[guest@bartoszgorniak.com ~]$ ./send_message.sh</div>
+                <h2>Get In Touch</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="prompt">[guest@bartoszgorniak.com ~]$ echo "2024 Bartosz Górniak"</div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+    "posts": [
+        {
+            "path": "posts/2024-11-24-infrastructure-as-code.md",
+            "featured": true
+        },
+        {
+            "path": "posts/2024-11-24-unix-philosophy.md",
+            "featured": false
+        },
+        {
+            "path": "posts/2024-11-23-essential-linux-commands.md",
+            "featured": false
+        }
+    ],
+    "categories": [
+        {
+            "name": "Technology",
+            "tags": ["infrastructure", "system-design", "unix", "linux", "best-practices"]
+        },
+        {
+            "name": "Tutorials",
+            "tags": ["guide", "tutorial", "how-to"]
+        },
+        {
+            "name": "Personal",
+            "tags": ["thoughts", "recipes", "life"]
+        }
+    ]
+}
