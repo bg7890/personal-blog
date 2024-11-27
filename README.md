@@ -1,5 +1,4 @@
-# Personal Website - Jin Tao Gu
-
+# Personal Website 
 ## Overview
 This is a personal portfolio website showcasing my professional profile, skills, and projects.
 
@@ -28,8 +27,3 @@ Feel free to modify the content in `index.html`, update styles in `styles.css`, 
 - Add actual project details
 - Implement backend for contact form
 - Add more interactive elements
-
-## Contact
-Jin Tao Gu
-[Your Email]
-[Your LinkedIn]
